@@ -31,7 +31,7 @@ header a#home {
 }
 section.foto {
   background-image: url(./img/showcase.jpg);
-  height: 35vh;
+  height: 40vh;
   background-size: cover;
   color: white;
   text-align: center;
@@ -78,6 +78,10 @@ section.logo {
   height: 40vh;
   /* border-bottom: 1px solid; */
 }
+section.logo img{
+  width: 20%;
+
+}
 section.about {
   display: flex;
   padding: 2rem;
@@ -94,12 +98,13 @@ div.right {
   background-color: #3f444f;
   padding: 1rem;
 }
+
 section.services {
   /* margin-top: -1rem; */
   display: flex;
   padding: 2rem;
   justify-content: space-between;
-  height: 72vh;
+  height: 100vh;
   gap: 5rem;
   /* border-bottom: solid 1px; */
 }
@@ -108,7 +113,7 @@ div.maintance,
 div.hosting {
   border: 1px solid;
   margin-top: 0.3rem;
-  padding: 2rem;
+  padding: 1rem;
   background-color: #d3d3d35b;
 }
 section.services form {
@@ -118,9 +123,7 @@ section.services form {
   padding: 1rem;
   /* width: 20rem; */
 }
-section.services form span {
-  margin-bottom: 60rem;
-}
+
 section.services table input,
 textarea {
   width: 15rem;
@@ -136,7 +139,6 @@ footer {
   padding: 1rem;
   position: sticky;
   bottom: 0;
+  width: 100%;
 }
-footer img {
-  /* width: 20%; */
-}
+
