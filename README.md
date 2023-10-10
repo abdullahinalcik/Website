@@ -1,1 +1,1 @@
-https://abdullahinalcik.github.io/005-Website/
+https://abdullahinalcik.github.io/Website/
